@@ -7,10 +7,10 @@ from pymongo import MongoClient
 load_dotenv()
 
 
-USER = os.getenv('MONGODB_USER')
-PASSW = os.getenv('MONGODB_PASS')
+# USER = os.getenv('MONGODB_USER')
+# PASSW = os.getenv('MONGODB_PASS')
 
-client = MongoClient(f"mongodb+srv://{USER}:{PASSW}@cluster0.0nnjfk0.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient(f"mongodb+srv://os.getenv('MONGODB_USER'):os.getenv('MONGODB_PASS')@cluster0.0nnjfk0.mongodb.net/?retryWrites=true&w=majority")
 
 db = client.todo_app
 
