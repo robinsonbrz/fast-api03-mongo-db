@@ -5,4 +5,4 @@ class Todo(BaseModel):
     name: str
     description: str
     completed: bool
-    # date: str
+    date: str

@@ -42,7 +42,11 @@ Com persistência de dados na nuvem utilizando o banco de dados não relacional 
 ## Utilização do programa 
 _______________________
 
-## 01 Setup MongoDB Atlas
+
+## 01 Criar o virtual environment e instalar as bibliotecas
+pip instal -r requirements.txt
+
+## 02 Setup MongoDB Atlas
 Crir um database em MongoDB Atlas.
 
 Copiar o arquivo de conexão para utilizar no arquivo config/database.py
@@ -51,9 +55,13 @@ MongoClient(f"mongodb+srv://{USER}:{PASSW}@cluster0.0nnjfk0.mongodb.net/?retryWr
 
 Coloque a senha e o password do banco de dados em .env conforme o arquivo .envsample em anexo
 
-Criar também um arquivo .gitignore para não expor sua senha
+Criar também um arquivo .gitignore para não expor sua senha.
 
-Enjoy!!
+## Para executar o programa
+uvicorn main:app --reload
+
+## Embbed chart
+<iframe style="background: #21313C;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-project-0-epqcj/embed/charts?id=628ecf07-9a3a-4ba6-8ec2-a39659e0ceac&maxDataAge=3600&theme=dark&autoRefresh=true"></iframe>
 
 
 
@@ -61,7 +69,7 @@ Enjoy!!
 <br>
 <br>
 <br>
-<br>
+
 
 
 <h1 align="center"> Informações e contato </h1> 

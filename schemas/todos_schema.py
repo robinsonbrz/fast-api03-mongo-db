@@ -4,7 +4,7 @@ def todo_serializer(todo) -> dict:
         "name": todo["name"],
         "description": todo["description"],
         "completed": todo["completed"],
-        # "date": todo["date"],
+        "date": todo["date"],
     }
 
 

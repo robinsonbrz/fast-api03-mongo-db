@@ -15,4 +15,3 @@ client = MongoClient(f"mongodb+srv://{USER}:{PASSW}@cluster0.0nnjfk0.mongodb.net
 db = client.todo_app
 
 collection_name = db["todos_app"]
-
