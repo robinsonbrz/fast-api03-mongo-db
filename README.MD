@@ -60,12 +60,15 @@ Coloque a senha e o password do banco de dados em .env conforme o arquivo .envsa
 Criar também um arquivo .gitignore para não expor sua senha.
 
 ## Para executar o programa
-uvicorn main:app --reload
+```
+pyhton main.py
+```
 
 ## Embed chart - para exibição em iframe HTML
-<div>
+```
 <iframe style="background: #21313C;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-project-0-epqcj/embed/charts?id=628ecf07-9a3a-4ba6-8ec2-a39659e0ceac&maxDataAge=3600&theme=dark&autoRefresh=true"></iframe>
 </div>
+```
 
 
 
