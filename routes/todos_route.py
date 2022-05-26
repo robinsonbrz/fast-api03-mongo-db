@@ -9,6 +9,9 @@ todo_api_router = APIRouter()
 # retrieve
 @todo_api_router.get("/")
 async def get_todos():
+    '''
+    Get sem parâmetros retorna todas as tarefas todo
+    '''
     todos = todos_serializer(collection_name.find())
     return todos
 
