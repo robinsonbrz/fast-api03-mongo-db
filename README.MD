@@ -8,9 +8,13 @@
 
 Projeto de todo app
 
-Com persistência de dados na nuvem utilizando o banco de dados não relacional MongoDb, MongoDB Atlas.
+Persistência de dados na nuvem utilizando o banco de dados não relacional MongoDb, MongoDB Atlas.
 
-Autenticação e Front End para o Crud. 
+# A implementação pode ser visualizada no link  [https://fast-api03-mongo-db.vercel.app/docs](https://fast-api03-mongo-db.vercel.app/docs)
+
+Próximas features para o app.
+
+Sistema de autenticação e Front End para o Crud.
 
 
 <br><br>
@@ -55,7 +59,9 @@ Copiar o arquivo de conexão para utilizar no arquivo config/database.py
 
 MongoClient(f"mongodb+srv://{USER}:{PASSW}@cluster0.0nnjfk0.mongodb.net/?retryWrites=true&w=majority")
 
-Coloque a senha e o password do banco de dados em .env conforme o arquivo .envsample em anexo
+Para acesso local, digite a senha e o password do banco de dados em .env conforme o arquivo .envsample em anexo
+
+No caso de deploy na Vercel... é necessário definir as variáveis de ambiente com a senha e usuario. Para que se conecte com o MongoDB Atlas. Devido a ausência do arquivo .env pelo .gitignore.
 
 Criar também um arquivo .gitignore para não expor sua senha.
 
