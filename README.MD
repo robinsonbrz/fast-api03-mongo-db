@@ -6,17 +6,7 @@
 ## Api com persistência MongoDB Atlas
 <br>
 
-Projeto de todo app
-
-Persistência de dados na nuvem utilizando o banco de dados não relacional MongoDb, MongoDB Atlas.
-
-# A implementação pode ser visualizada no link  [https://fast-api03-mongo-db.vercel.app/docs](https://fast-api03-mongo-db.vercel.app/docs)
-
-Próximas features para o app.
-
-Sistema de autenticação e Front End para o Crud.
-
-
+Projeto aplicação gerenciador de tarefas com FastAPI
 <br><br>
   <div align="center">
     <table>
@@ -38,13 +28,29 @@ Sistema de autenticação e Front End para o Crud.
             <img src="https://raw.githubusercontent.com/robinsonbrz/robinsonbrz/main/static/img/gmail.png" width="30" height="30" ></a>
         </td>
       </tr>
+<br>
+            <a  href="https://www.linkedin.com/in/robinsonbrz/">
+            <img src="FastAPI-MongoDB-Atlas.jpg" width="256" height="256">
+
+<br>
     </table>
   </div>
   <br>
-
-<br>
 <br>
 
+Persistência de dados na nuvem utilizando o banco de dados não relacional MongoDb, MongoDB Atlas.
+<br><br>
+
+### A implementação pode ser visualizada nos links: 
+ [https://mdb.enedino.com.br/docs](https://mdb.enedino.com.br/docs)
+ <br>
+ [https://fast-api03-mongo-db.vercel.app/docs](https://fast-api03-mongo-db.vercel.app/docs)
+
+
+<br>
+            <a  href="https://mdb.enedino.com.br/docs">
+            <img src="05-put.png" >
+<br><br><br>
 ## Utilização do programa 
 _______________________
 
@@ -70,11 +76,10 @@ Criar também um arquivo .gitignore para não expor sua senha.
 pyhton main.py
 ```
 
-## Embed chart - para exibição em iframe HTML
-```
-<iframe style="background: #21313C;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-project-0-epqcj/embed/charts?id=628ecf07-9a3a-4ba6-8ec2-a39659e0ceac&maxDataAge=3600&theme=dark&autoRefresh=true"></iframe>
-</div>
-```
+# Próximas features para o app. 
+
+Implementação de segurança OAUTH2 e autenticação
+Front End para o Crud.
 
 
 
