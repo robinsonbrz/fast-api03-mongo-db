@@ -1,5 +1,3 @@
-
-
 # Experimento Python | FastAPI | MongoDBAtlas
 
 
@@ -13,15 +11,15 @@ Projeto aplicação gerenciador de tarefas com FastAPI
       </tr>
             <td>
                 <a  href="https://www.linkedin.com/in/robinsonbrz/">
-                Adaptação e deploy por Robinson Enedino
+                Adaptação e deploy por Robinson Enedino</a>
             </td>
         <td>
             <a  href="https://www.linkedin.com/in/robinsonbrz/">
-            <img src="https://raw.githubusercontent.com/robinsonbrz/robinsonbrz/main/static/img/linkedin.png" width="30" height="30">
+            <img src="https://raw.githubusercontent.com/robinsonbrz/robinsonbrz/main/static/img/linkedin.png" width="30" height="30"></a>
         </td>
         <td>
             <a  href="https://www.linkedin.com/in/robinsonbrz/">
-            <img  src="https://avatars.githubusercontent.com/u/18150643?s=96&amp;v=4" alt="@robinsonbrz" width="30" height="30">
+            <img  src="https://avatars.githubusercontent.com/u/18150643?s=96&amp;v=4" alt="@robinsonbrz" width="30" height="30"></a>
         </td>
         <td>
             <a href="mailto:robinsonbrz@gmail.com">
@@ -30,7 +28,7 @@ Projeto aplicação gerenciador de tarefas com FastAPI
       </tr>
 <br>
             <a  href="https://www.linkedin.com/in/robinsonbrz/">
-            <img src="FastAPI-MongoDB-Atlas.jpg" width="256" height="256">
+            <img src="FastAPI-MongoDB-Atlas.jpg" width="256" height="256"></a>
 
 <br>
     </table>
@@ -48,10 +46,13 @@ Persistência de dados na nuvem utilizando o banco de dados não relacional Mong
 
 
 <br>
-            <a  href="https://mdb.enedino.com.br/docs">
-            <img src="05-put.png" >
+<a  href="https://mdb.enedino.com.br/docs">
+<img src="05-Put.png" ></a>
 <br><br><br>
+
+
 ## Utilização do programa 
+
 _______________________
 
 
@@ -76,7 +77,7 @@ Criar também um arquivo .gitignore para não expor sua senha.
 pyhton main.py
 ```
 
-# Próximas features para o app. 
+# Próximas features . 
 
 Implementação de segurança OAUTH2 e autenticação
 Front End para o Crud.
@@ -96,15 +97,15 @@ Front End para o Crud.
         </tr>
             <td>
                 <a  href="https://www.linkedin.com/in/robinsonbrz/">
-                <img src="https://raw.githubusercontent.com/robinsonbrz/robinsonbrz/main/static/img/linkedin.png" width="50" height="50">
+                <img src="https://raw.githubusercontent.com/robinsonbrz/robinsonbrz/main/static/img/linkedin.png" width="50" height="50"></a>
             </td>
             <td>
                 <a  href="https://www.linkedin.com/in/robinsonbrz/">
-                <img  src="https://avatars.githubusercontent.com/u/18150643?s=96&amp;v=4" alt="@robinsonbrz" width="30" height="30">
+                <img  src="https://avatars.githubusercontent.com/u/18150643?s=96&amp;v=4" alt="@robinsonbrz" width="30" height="30"></a>
             </td>
             <td>
                 <a href="https://www.enedino.com.br/contato">
-                <img src="https://raw.githubusercontent.com/robinsonbrz/robinsonbrz/main/static/img/gmail.png" width="50" height="50">
+                <img src="https://raw.githubusercontent.com/robinsonbrz/robinsonbrz/main/static/img/gmail.png" width="50" height="50"></a>
             </td>
         </tr>
     </table> 
